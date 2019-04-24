@@ -76,10 +76,10 @@ html, body {
     position: absolute;
     color: #000;
     font-family: Poppins;
-    bottom: 8%;
+    bottom: 20%;
     font-weight: bolder;
     transform: rotate(-90deg);
-    left: 0%;
+    left: 6%;
 }
 
 .extra {
@@ -98,14 +98,22 @@ html, body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 45%;
-    height: 50%;
-    background: url(img/10.png) no-repeat 50% 50%;
+    width: 50%;
+    height: 30%;
+    background: url(img/4.jpg) no-repeat 50% 50%;
     background-size: cover;
     opacity: 0;
     animation: appear-text 0.0001s linear forwards;
     animation-delay: 2.6s;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
 
+.subtitle h4 {
+    color: #F7B974;
+    margin-top: -10px;
+    width: 300px;
 }
 
 .data {
@@ -122,9 +130,9 @@ html, body {
 
 .cardholder {
         position: absolute;
-        top: 36%;
+        top: 50%;
         left: 40%;
-        transform: translate(-40%, -40%);
+        transform: translate(-30%, -30%);
         color: #89A894;
         font-family: Poppins;
         text-transform: uppercase;
@@ -144,6 +152,7 @@ html, body {
 #projects {
     text-decoration: none;
 }
+
 
 .next ion-icon {
     position: absolute;
@@ -203,6 +212,7 @@ html, body {
     display: inline-block;
     color: #bcac98;
     padding-right: 10px;
+    text-decoration: none;
 }
 
 .next {
@@ -224,7 +234,7 @@ html, body {
 .more {
     position: absolute;
     top: 80%;
-    left: 10%;
+    left: 30%;
     font-size: 15px;
     color: #f4c8ad;
     text-transform: uppercase;
@@ -237,8 +247,8 @@ html, body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 45%;
-    height: 50%;
+    width: 50%;
+    height: 30%;
 }
 
 .block-cover::after {
@@ -251,6 +261,9 @@ html, body {
    background: #4f4538;
    animation: rev-block 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
    animation-delay: 2s;
+   -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
 }
 
 @keyframes rev-block {
