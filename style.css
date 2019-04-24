@@ -6,6 +6,15 @@ html, body {
     font-family: Helvetica;
 }
 
+.page2 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: Helvetica;
+    background: #F7B974 !important;
+}
+
 .left-col, .right-col {
     position: absolute;
     width: 50%;
@@ -90,8 +99,8 @@ html, body {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 45%;
-    height: 50%;
-    background: url(img/4.jpg) no-repeat 50% 50%;
+    height: 60%;
+    background: url(img/1.jpg) no-repeat 50% 50%;
     background-size: cover;
     opacity: 0;
     animation: appear-text 0.0001s linear forwards;
@@ -110,12 +119,29 @@ html, body {
     letter-spacing: 4px;
 }
 
+.cardholder {
+        position: absolute;
+        top: 36%;
+        left: 40%;
+        transform: translate(-40%, -40%);
+        color: #89A894;
+        font-family: Poppins;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+}
+
+
+
 #sub-four {
     font-weight: bolder;
 }
 
 #sub-five {
     font-size: 10px;
+}
+
+#projects {
+    text-decoration: none;
 }
 
 .next ion-icon {
@@ -202,7 +228,7 @@ html, body {
     color: #f4c8ad;
     text-transform: uppercase;
     font-family: Poppins;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .block-cover {
