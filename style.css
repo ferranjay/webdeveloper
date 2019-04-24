@@ -111,7 +111,8 @@ html, body {
 .data {
     position: absolute;
     top: 36%;
-    left: 33%;
+    left: 40%;
+    width: 50%;
     transform: translate(-50%, -50%);
     color: #cdbba5;
     font-family: Poppins;
@@ -159,7 +160,7 @@ html, body {
 .about {
     position: absolute;
     top: 40%;
-    left: 26%;
+    left: 40%;
     transform: translate(-50%, -50%);
 }
 
